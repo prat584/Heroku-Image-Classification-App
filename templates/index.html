@@ -3,7 +3,8 @@
 {% block content %}
 <center>
     <div class="centered">
-        <p><b>Upload an image to predict its class</b></p>
+        <h1><b>Upload an image to predict its class</b></h1>
+        <p>Upload any jpg image and if it belongs to any of the 1000 labels for which this model is trained, image class will be predicted correctly. just try image of any commonly known animal from our animal kingdom or a house or any house hold item or if you like upload an image of a beer bottle, the model in the backend will predict the class</p> 
         <div class="upload-form">
           <form action = "/uploader" method = "POST" enctype = "multipart/form-data">
             <input type = "file" name = "file" />
